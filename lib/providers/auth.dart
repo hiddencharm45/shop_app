@@ -73,14 +73,12 @@ class Auth with ChangeNotifier {
   }
 
   Future<void> signup(String email, String password) async {
-    const url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBu2qtAYsy3_ub3Vv78f2RjFKVn1TJOpKY";
+    const url = "";
     return _authenticate(email, password, url);
   }
 
   Future<void> signin(String email, String password) async {
-    const url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBu2qtAYsy3_ub3Vv78f2RjFKVn1TJOpKY";
+    const url = "";
     return _authenticate(email, password, url);
   }
 
